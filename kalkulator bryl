@@ -1,0 +1,57 @@
+import math
+
+print("szescian")
+print("prostopadloscian")
+print("graniastoslup")
+print("ostroslup")
+print("walec")
+print("stozek")
+print("kula")
+
+Podaj_figure = input("Podaj figure ")
+
+if Podaj_figure == "szescian":
+    a =float(input("bok = "))
+    p = a*a*6
+    print(f'Pole ={p}')
+
+elif Podaj_figure == "prostopadloscian":
+    a =float(input("bok a = ")) 
+    b =float(input("bok b = "))
+    c =float(input("bok c = "))
+    p = 2*a*b+2*a*c+2*b*c
+    print(f'Pole ={p}')
+
+elif Podaj_figure == "graniastoslup":
+    Pp =float(input("Pole podstawy = "))
+    Pb =float(input("Pole powierzchni bocznej = "))
+    p = 2*Pp+Pb
+    print(f'Pole ={p}')
+
+elif Podaj_figure == "ostroslup":
+     Pp =float(input("Pole podstawy = "))
+     Pb =float(input("Pole powierzchni bocznej = "))
+     p = Pp+Pb
+     print(f'Pole ={p}')
+
+elif Podaj_figure == "walec":
+    r =float(input("promien podstawy = "))
+    h =float(input("wysokosc"))
+    j = math.pi 
+    p = 2*j*r*r+2*j*h
+    print(f'Pole ={p}')
+
+elif Podaj_figure == "stozek":
+    r =float(input("promien podstawy = "))
+    i =float(input("przeciwprostokontna = "))
+    m =math.pi
+    p = m*r*r+m*r*i 
+    print(f'Pole ={p}')
+
+elif Podaj_figure == "kula":
+    r = float(input("promien = "))
+    m =math.pi
+    p = 4*m*r*r
+    print(f'Pole ={p}')
+else:
+    print("Nie")
