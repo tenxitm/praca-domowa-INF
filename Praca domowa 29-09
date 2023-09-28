@@ -1,0 +1,77 @@
+# 1. Utwórz pustą listę o nazwie "numbers".
+lista_numbers = []
+# 2. Poproś użytkownika o podanie 5 liczb i dodaj je do listy.
+x = 0
+while x < 5:
+    inp = float (input("Podaj 5 liczb "))
+    lista_numbers.append(inp)
+    print(lista_numbers)
+    x += 1
+# 3. Oblicz sumę liczb znajdujących się w liście "numbers".
+lista_numbers = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+suma = 0
+x = 0
+while x < len(lista_numbers):
+    suma += lista_numbers[x]
+    x += 1
+    print(f'{lista_numbers} - suma = {suma}')
+# 4. Znajdź największą liczbę w liście "numbers".
+lista_numbers = [1,2,3,4,5,6,7,8,9,10]
+x = 0
+najwienksza = lista_numbers[0]
+while x < len(lista_numbers):
+    if najwienksza > lista_numbers[x]:
+        najwienksza = lista_numbers[x]
+        print(f'największa liczba = {najwienksza}')
+        x += 1
+# 5. Znajdź najmniejszą liczbę w liście "numbers".
+lista_numbers = [1,2,3,4,5,6,7,8,9,10]
+najmniejsza = [0]
+x = 0
+while x < len(lista_numbers):
+    if najmniejsza > lista_numbers[x]:
+        najmniejsza = lista_numbers[x]
+        print(f'Najmniejsza liczba {najmniejsza}')
+        x += 1
+# 6. Znajdź średnią arytmetyczną liczb w liście "numbers".
+lista_numbers = [1,2,3,4,5,6,7,8,9,10]
+art = 0
+x = 0
+while x < len(lista_numbers):
+    art += lista_numbers[x]
+    print(art/len(lista_numbers))
+    x += 1
+# 7. Znajdź ilość liczb parzystych w liście "numbers".
+lista_numbers = [0,1,2,3,4,5,6,7,8,9,10]
+x = 0
+parzyste = 0
+while x < len(lista_numbers):
+    if lista_numbers[x] % 2 == 0:
+        parzyste += 1
+# 8. Stwórz nową listę o nazwie "duplicates" zawierającą powtarzające się elementy z listy "numbers".
+lista_numbers = [0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10]
+lista_duplicates = []
+x = 0
+while x < len(lista_numbers):
+    if lista_numbers.count(lista_numbers[x]) > 1 and lista_numbers(x) not in lista_duplicates:
+        lista_duplicates.append(lista_numbers(x))
+    x += 1
+print(lista_numbers)
+print(lista_duplicates)
+# 9. Usuń wszystkie powtarzające się elementy z listy "numbers".
+lista_numbers = [1,1,2,2,3,3,4,4,5,5]
+nowa_lista = []
+x = 0
+
+while x < len(lista_numbers):
+    print(f"{x} {lista_numbers[x]}" )
+x += 1
+# 10. Stwórz nową listę o nazwie "squares" zawierającą kwadraty liczb z listy "numbers".
+lista_numbers = [1,2,3,4,5,6,7,8]
+lista_squares = []
+x = 0
+
+while x < len(lista_numbers):
+    if lista_numbers**2:
+        lista_squares.append(lista_numbers)
+x += 1
