@@ -1,1 +1,35 @@
+inp = float(input())
+
 def xxx()
+if inp == "1":
+    a =float(input("bok = "))
+    p = a*a*6
+    print(f'Pole ={p}')
+
+def xxxx()
+if inp == "2":
+a =float(input("bok a = ))
+b =float(input("bok b = ))
+p = a*b
+print(f'Pole ={p})
+
+def x()
+if inp == "3":
+a =float(input("bok =))
+p = a*a
+print(f'Pole={p})
+
+def xx()
+if inp == "4":
+a =float(input("podstawa "))
+h =float(input("wysokość "))
+p = a*h%2
+print(f'Pole={p})
+
+def nie()
+if inp= "4":
+e =float(input("przekątna 1 "))
+f =float(input("przekątna 2 "))
+p = e*f%2
+print(f'Pole{p})
+
