@@ -1,0 +1,34 @@
+# Do rozwiązania wszystkich zadań wykorzystaj Lamba fuction. 
+
+# Napisz funkcję która przyjmuje trzy listy i powie w której z nich znajduje się największa średnia.
+
+def xxx(lst1, lst2, lst3):
+    sr = lambda lst: sum(lst)/len(lst)
+    all_lst = [lst1, lst2, lst3]
+    l = []
+    for lst in all_lst:
+        l.append(sr(lst))
+    return l.index(max(l))
+
+print(xxx([1,2,3,4,5,2], [1243,1,2-2345], [13,2]))
+
+# Napisz funkcję która generuje losową listę o wielkości k i zakresie n i m.
+from random import randint
+los = lambda k,n,m: [randint(n,m) for i in range(k)]
+print(los(17,20,30))
+
+# Napisz funkcję która przyjmuje listę i podniesie wszystkie elementy do kwadratu 
+
+kwl = lambda lst: list(map(lambda el: el**2, lst))
+print(kwl([2,1,3,4,6,7]))
+
+# Napisz funkcję która przyjmuje listę i podniesie wszystkie elementy do 1/2
+
+inne = lambda lst: list(map(lambda el: el**1/2, lst))
+print(inne([1,23,4,6,12,4]))
+
+# Napisz funkcję która przyjmuje listę jako argument w zwróci ile występuje liczb parzystych  
+
+kjwk = lambda lst: len(list(filter(lambda x: x % 2 == 0, lst)))
+print(kjwk([2,4,2,4,8]))
+
