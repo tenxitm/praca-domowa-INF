@@ -1,0 +1,50 @@
+class Balwan
+def __init__(self,_imie,_mana,_ilosckilli,_czas)
+   self.imie = _imie
+   self.mana = _mana
+   self.ilosckilli = _ilosckilli
+   self.czas = _czas
+
+   def inf(self)
+      print(self.imie)
+      print(self.mana)
+      print(self.ilosckilli)
+      print(self.czas)
+
+  b1.inf()
+  b1 = Balwan("Franek", 1000, 55, 3600000)
+
+
+
+class Czolg
+def __init__(self,_imie,_kalober,_ilosckilli,_cm)
+   self.imie = _imie
+   self.mana = _kaliber
+   self.ilosckilli = _ilosckilli
+   self.czas = _cm
+
+   def inf(self)
+      print(self.imie)
+      print(self.kaliber)
+      print(self.ilosckilli)
+      print(self.cm)
+
+  c1.inf()
+  c1 = Czolg("Olgierdos", "duży", 10, 100)
+
+
+class Laptop
+def __init__(self,_imie,_iloscklawiszy,_iloscnacisku,_procesor)
+   self.imie = _imie
+   self.mana = _iloscklawiszy
+   self.ilosckilli = _iloscnacisku
+   self.czas = _procesor
+
+   def inf(self)
+      print(self.imie)
+      print(self.iloscklawiszy)
+      print(self.ilosnacisku)
+      print(self.procesor)
+
+  l1.inf()
+  l1 = Laptop("Pan od Informatyki", "?", "kilka milionow", "Intel Core i 9..."
