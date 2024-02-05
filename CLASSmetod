@@ -1,0 +1,43 @@
+class SilaMocPraca:
+    
+    @classmethod
+    def wzor_1(cls,a:float,b:float):
+        return a+b
+    @classmethod
+    def wzor_2(cls,u:float,i:float):
+        return u*i
+    @classmethod
+    def wzor_3(cls,s:float,t:float):
+        return s/t
+    @classmethod
+    def wzor_4(cls,v:float,t:float):
+        return v*t
+    @classmethod
+    def wzor_5(cls,m:float,a:float):
+        return m*a
+    @classmethod
+    def wzor_6(cls,u:float,i:float,t:float):
+        return u*i*t
+    @classmethod
+    def wzor_7(cls,u:float,q:float):
+        return u*q
+    @classmethod
+    def wzor_8(cls,m:float,g:float):
+        return m*g
+    @classmethod
+    def wzor_9(cls,f:float,s:float):
+        return f/s
+    
+
+import math
+
+print(math.sqrt(4))
+print(SilaMocPraca.wzor_1(10,10))
+print(SilaMocPraca.wzor_2(10,10))
+print(SilaMocPraca.wzor_3(10,10))
+print(SilaMocPraca.wzor_4(10,10))
+print(SilaMocPraca.wzor_5(10,10))
+print(SilaMocPraca.wzor_6(10,10,10))
+print(SilaMocPraca.wzor_7(10,10))
+print(SilaMocPraca.wzor_8(10,10))
+print(SilaMocPraca.wzor_9(10,10))
